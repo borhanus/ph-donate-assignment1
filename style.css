@@ -82,6 +82,7 @@ section{
     text-align: center;
     line-height: 45px;
     margin-bottom: 50px;
+    color: #707070;
 }
 .input-makup:focus{
     outline: none;
@@ -127,8 +128,36 @@ section{
     height: 120%;
     border-radius: 5px;
 }
+.collections{
+    padding: 0 20%;
+    text-align: center;
+}
+.collections h2{
+    margin-bottom: 40px;
+}
+.collections ul{
+    width: 100%;
+}
+.collections ul li{
+    background-color: #FF5959;
+    border-radius: 5px;
+    margin: 0 auto 10px;
+}
+li.target{
+    width: 100%;
+}
+li.collection{
+    width: 70%;
+}
+li.donated{
+    width: 50%;
+}
+.collections ul li h4{
+    line-height: 40px;
+    margin: 0;
+}
 .updates{
-    padding: 2% 20%;
+    padding: 0 20%;
     text-align: center;
 }
 .updates .donate-head p{
@@ -148,7 +177,7 @@ section{
     cursor: pointer;
 }
 .updates input.email-input{
-    color: #AA9F9F;
+    color: #707070;
     background-color: #D9D9D9;
     border-radius: 5px 0 0 5px;
     cursor: text;
@@ -169,5 +198,4 @@ footer h2{
 footer p{
     color: white;
     font-size: 14px;
-    
 }
